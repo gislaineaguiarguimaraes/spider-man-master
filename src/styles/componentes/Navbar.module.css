@@ -1,0 +1,18 @@
+.menu {
+  padding: 1rem 0; /*usar rem ajuda na acessibilidade do site*/
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.menu li {
+  display: inline-block; /*Para que os items fiquem lado a lado*/
+  text-transform: uppercase;
+  margin: 0 1.25rem;
+}
+
+.icon{
+  width: 2rem;
+  margin: 0 1.25rem;
+  vertical-align: middle; /*alinha verticalmente no meio*/
+}
