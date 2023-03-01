@@ -1,6 +1,6 @@
 [
   {
-    "id": "01",
+    "id": "1",
     "name": "Tobey Maguire",
     "img": "https://imgur.com/y78md4V.jpg",
     "background": "https://imgur.com/iiCGQRA.jpg",
@@ -8,14 +8,14 @@
     
   },
   {
-    "id": "02",
+    "id": "2",
     "name": "Andrew Garfield",
     "img": "https://imgur.com/mQaXgM2.jpg",
     "background":"https://imgur.com/j9txBON.jpg",
     "link": "/andrew-garfield"
   },
   {
-    "id": "03",
+    "id": "3",
     "name": "Tom Holland",
     "img": "https://imgur.com/ynuTjOa.jpg",
     "background":"https://imgur.com/gECll77.jpg",
