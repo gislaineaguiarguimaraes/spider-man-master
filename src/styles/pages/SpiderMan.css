@@ -1,0 +1,38 @@
+.wrapper{
+  display: flex;
+  height: 100vh; 
+  flex-flow: row nowrap; /*shorthand para flex-direction e flex-wrap*/
+}
+
+.left_column {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  padding-right: 50px;
+  left: 0;
+  top: 0;
+  z-index: 1;
+ }
+
+ .main_content {
+  width: 100%;
+  height: 100%;
+  padding-left: 130px;
+}
+
+.main_content_top{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.main_content_bottom{
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

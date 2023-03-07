@@ -1,9 +1,10 @@
-body {
+.body {
   background-color: var(--primary-color);
+  height: 100%;
 
 }
 
-body::before {
+.body::before {
   content: "";
   background-image: url(../../assets/images/spider-man-background.jpg);
   background-repeat: no-repeat;

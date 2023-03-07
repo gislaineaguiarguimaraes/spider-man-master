@@ -3,9 +3,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 //Importer toutes les pages du site
 import Home from './pages/Home'
-import TobeyMaguire from './pages/TobeyMaguire'
-import AndrewGarfield from './pages/AndrewGarfield'
-import TomHolland from './pages/TomHolland'
+import Spiderman from './pages/Spiderman'
 
 import './App.css'
 
@@ -16,9 +14,7 @@ function App() {
       <Router>
         <Routes>
           <Route path = "/" exact element= {<Home/>}/>
-          <Route path = "/tobey-maguire" element= {<TobeyMaguire/>}/>
-          <Route path = "/andrew-garfield" element= {<AndrewGarfield/>}/>
-          <Route path = "/tom-holland" element= {<TomHolland/>}/>
+          <Route path = "/Spiderman/:id" element= {<Spiderman/>}/>
         </Routes>
       </Router>
     </div>

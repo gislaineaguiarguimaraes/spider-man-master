@@ -2,23 +2,153 @@
   {
     "id": "1",
     "name": "Tobey Maguire",
-    "img": "https://imgur.com/y78md4V.jpg",
-    "background": "https://imgur.com/iiCGQRA.jpg",
-    "link": "/tobey-maguire"
+    "coverImg": "https://imgur.com/y78md4V.jpg",
+    "coverBackground": "https://imgur.com/iiCGQRA.jpg",
     
+    "movies": [
+      {
+        "id":"1.1",
+        "icon": "https://imgur.com/RpUawIQ.jpg",
+        "logo": "https://imgur.com/9oH0ssC.jpg",
+        "year": "2002",
+        "director":"Sam Remi",
+        "synopsis": "Depois de ser picado por uma aranha geneticamente modificada em uma demonstração científica, o jovem nerd Peter Parker ganha superpoderes. Inicialmente, ele pretende usá-los para para ganhar dinheiro, adotando o nome de Homem-Aranha e se apresentando em lutas de exibição. Porém, ao presenciar o assassinando de seu tio Ben e sentir-se culpado, Peter decide não mais usar seus poderes para proveito próprio e sim para enfrentar o mal, tendo como seu primeiro grande desafio o psicótico Duende Verde",
+        "trailer": "https://www.youtube.com/watch?v=TYMMOjBUPMM",
+        "pictures": [
+          "https://imgur.com/ts8WbC2.jpg",
+          "https://imgur.com/mAZQU6A.jpg",
+          "https://imgur.com/Yv4aKFI.jpg"
+        ],
+        "background":"https://imgur.com/VAwahRh.jpg"
+      },
+      {
+        "id":"1.2",
+        "icon": "https://imgur.com/RpUawIQ.jpg",
+        "logo": "https://imgur.com/xXVDaID.jpg",
+        "year": "2004",
+        "director":"Sam Remi",
+        "synopsis": "Dividido entre sua identidade secreta como Homem-Aranha e sua vida de estudante, Peter Parker não conseguiu manter aquela que ama, Mary Jane, que agora é atriz e está namorando outra pessoa. Guiado por seu único senso de dever, Peter agora experimenta cada um de seus poderes como um presente e uma maldição. Além disso, a amizade entre Peter e Harry Osborn também está ameaçada. Harry sonha mais do que nunca em se vingar do Homem-Aranha, a quem considera responsável pela morte de seu pai. A vida de Peter se torna ainda mais complicada quando um novo inimigo surge: o temível Dr. Otto Octavius. Cercado pelas escolhas e provações que envolvem tanto sua vida íntima quanto o futuro do mundo, Peter deve enfrentar seu destino e convocar todos os seus poderes para lutar em todas as frentes...",
+        "trailer": "https://www.youtube.com/watch?v=1s9Yln0YwCw",
+        "pictures": [
+          "https://imgur.com/JpKO0tm.jpg",
+          "https://imgur.com/kd03764.jpg",
+          "https://imgur.com/CeB5YSz.jpg"
+        ],
+        "background":"https://imgur.com/P0TWx52.jpg"
+        
+      },
+      {
+        "id":"1.3",
+        "icon": "https://imgur.com/RpUawIQ.jpg",
+        "logo": "https://imgur.com/ARbXKCj.jpg",
+        "year": "2007",
+        "director":"Sam Remi",
+        "synopsis": "Peter Parker finalmente conseguiu conciliar seu amor por Mary-Jane e seus deveres como super-herói. Mas o horizonte escurece. A brutal mutação de seu traje, que se torna preto, aumenta em dez vezes seus poderes e também transforma sua personalidade para trazer à tona o aspecto sombrio e vingativo que Peter se esforça para controlar. Sob a influência de seu terno, Peter fica confiante demais e começa a negligenciar seus entes queridos. Forçado a escolher entre o poder de sedução deste novo traje e a compaixão que o caracterizava antes, Peter enfrentará seus demônios ao enfrentar dois dos piores vilões da história, o Sandman e Venom, cujo extraordinário poder e sede de vingança ameaçam Peter. e todos aqueles que ele considera queridos.",
+        "trailer": "https://www.youtube.com/watch?v=wPosLpgMtTY",
+        "pictures": [
+          "https://imgur.com/VaND1Ub.jpg",
+          "https://imgur.com/V9KnO8f.jpg",
+          "https://imgur.com/JHsLNfO.jpg"
+        ],
+        "background":"https://imgur.com/dGvhIss.jpg"
+        
+      }
+    ]    
   },
   {
     "id": "2",
     "name": "Andrew Garfield",
-    "img": "https://imgur.com/mQaXgM2.jpg",
-    "background":"https://imgur.com/j9txBON.jpg",
-    "link": "/andrew-garfield"
+    "coverImg": "https://imgur.com/mQaXgM2.jpg",
+    "coverBackground":"https://imgur.com/j9txBON.jpg",
+    "movies": [
+      {
+        "id":"2.1",
+        "icon": "https://imgur.com/YbTnEiu.png",
+        "logo": "https://imgur.com/VTkA93q.jpg",
+        "year": "2012",
+        "director":"Marc Webb",
+        "synopsis": "Abandonado por seus pais quando criança, Peter Parker foi criado por seu tio Ben e tia May. Ele agora está no ensino médio, mas está lutando para se integrar. Como a maioria dos adolescentes de sua idade, Peter está tentando descobrir quem ele é e aceitar sua jornada. Amantes pela primeira vez, ele e Gwen Stacy descobrem sentimentos, compromissos e segredos. Ao encontrar uma pasta misteriosa que pertenceu a seu pai, Peter inicia uma busca para elucidar o desaparecimento de seus pais, que rapidamente o leva à Oscorp e ao laboratório do Dr. Curt Connors, ex-parceiro de seu pai. O Homem-Aranha logo se encontrará cara a cara com o Lagarto, o alter ego de Connors. Ao decidir usar seus poderes, ele escolherá seu destino...",
+        "trailer": "https://www.youtube.com/watch?v=6nzNdpJ3qMo",
+        "pictures": [
+          "https://imgur.com/wY6EPvK.jpg",
+          "https://imgur.com/ajgXi3z.jpg",
+          "https://imgur.com/xPqpo3u.jpg"
+        ],
+        "background":"https://imgur.com/5zoD2NQ.jpg"
+      },
+      {
+        "id":"2.2",
+        "icon": "https://imgur.com/YbTnEiu.jpg",
+        "logo": "https://imgur.com/EArinav.jpg",
+        "year": "2014",
+        "director":"Marc Webb",
+        "synopsis": " Não é nenhum segredo que a batalha mais difícil do Homem-Aranha é aquela que ele trava contra si mesmo enquanto tenta conciliar a vida diária de Peter Parker com as pesadas responsabilidades do Homem-Aranha. Mas Peter Parker perceberá que está enfrentando um conflito muito maior. Sendo o Homem-Aranha, o que poderia ser mais emocionante? Peter Parker encontra sua felicidade entre sua vida de herói, saltando de um arranha-céu para outro, e os doces momentos passados ​​ao lado de Gwen. Mas ser o Homem-Aranha tem um preço: ele é o único que pode proteger seus compatriotas nova-iorquinos dos abomináveis ​​vilões que ameaçam a cidade. Diante de Electro, Peter terá que enfrentar um inimigo muito mais poderoso que ele. Quando seu velho amigo Harry Osborn retorna, ele percebe que todos os seus inimigos têm uma coisa em comum: a OsCorp.",
+        "trailer": "https://www.youtube.com/watch?v=nbp3Ra3Yp74",
+        "pictures": [
+          "https://imgur.com/HACTqsg.jpg",
+          "https://imgur.com/S2lrbCg.jpg",
+          "https://imgur.com/NuhAmnx.jpg"
+        ],
+        "background":"https://imgur.com/LqpBZCf.jpg"
+      }
+    ]
   },
   {
     "id": "3",
     "name": "Tom Holland",
-    "img": "https://imgur.com/ynuTjOa.jpg",
-    "background":"https://imgur.com/gECll77.jpg",
-    "link": "/tom-holland"
+    "coverImg": "https://imgur.com/ynuTjOa.jpg",
+    "coverBackground":"https://imgur.com/gECll77.jpg",
+    "movies":[
+      {
+        "id":"3.1",
+        "icon": "https://imgur.com/ZeeLn7t.jpg",
+        "logo": "https://imgur.com/CuqzyIb.jpg ",
+        "year": "2017",
+        "director":"Jon Watts",
+        "synopsis": "Após sua estreia espetacular em Capitão América: Guerra Civil, o jovem Peter Parker gradualmente descobre sua nova identidade, a do Homem-Aranha, o super-herói lançador de teias. Animado por sua experiência com os Vingadores, Peter volta para casa, para sua tia May, sob o olhar atento de seu novo mentor, Tony Stark. Ele luta para voltar à sua antiga vida, mas, no fundo, Peter sonha em provar a si mesmo que é mais do que apenas o super-herói amigo da vizinhança. O aparecimento de um novo inimigo, o Abutre, colocará em perigo tudo o que é importante para ele...",
+        "trailer": "https://www.youtube.com/watch?v=rk-dF1lIbIg",
+        "pictures": [
+          "https://imgur.com/SuYWQ55.jpg",
+          "https://imgur.com/G6366oX.jpg",
+          "https://imgur.com/ru3cIzJ.jpg",
+          "https://imgur.com/UTdWS61.jpg"
+        ],
+        "background":"https://imgur.com/ausifgW.jpg"
+      },
+      {
+        "id":"3.2",
+        "icon": "https://imgur.com/ZeeLn7t.jpg",
+        "logo": "https://imgur.com/WUD9Ybc.jpg",
+        "year": "2019",
+        "director":"Jon Watts",
+        "synopsis": "A simpática aranha da vizinhança decide se juntar a seus melhores amigos Ned, MJ e o resto da turma para umas férias na Europa. No entanto, o plano de Peter de deixar sua fantasia de super-herói para trás por algumas semanas é rapidamente comprometido quando ele relutantemente concorda em ajudar Nick Fury a descobrir o mistério de vários ataques de criaturas, que estão devastando o continente!",
+        "trailer": "https://www.youtube.com/watch?v=Nt9L1jCKGnE",
+        "pictures": [
+          "https://imgur.com/klxjFry.jpg",
+          "https://imgur.com/m0krw9f.jpg",
+          "https://imgur.com/ZSxWxSN.jpg",
+          "https://imgur.com/2IB5Hxr.jpg"
+        ],
+        "background":"https://imgur.com/dfVUEHt.jpg"
+      },
+      {
+        "id":"3.3",
+        "icon": "https://imgur.com/ZeeLn7t.jpg",
+        "logo": "https://imgur.com/UlixKAi.jpg ",
+        "year": "2021",
+        "director":"Jon Watts",
+        "synopsis": "Pela primeira vez em sua história cinematográfica, o Homem-Aranha, o simpático herói da vizinhança, é exposto e não consegue mais separar sua vida normal de suas pesadas responsabilidades de super-herói. Quando ele pede ajuda ao Doutor Strange, as apostas se tornam ainda mais perigosas, forçando-o a descobrir o que realmente significa ser o Homem-Aranha.",
+        "trailer": "https://www.youtube.com/watch?v=JfVOs4VSpmA",
+        "pictures": [
+          "https://imgur.com/9DN9f19.jpg",
+          "/assets/images/spiderman-tom/movie-03/gallery/image-02.png",
+          "/assets/images/spiderman-tom/movie-03/gallery/image-03.png",
+          "/assets/images/spiderman-tom/movie-03/gallery/image-04.png"
+        ],
+        "background":"https://imgur.com/lnjkam7.jpg"
+      }
+    ]
   }
 ]
+    
+    

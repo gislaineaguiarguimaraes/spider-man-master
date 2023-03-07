@@ -1,10 +1,10 @@
 import Navbar from "../componentes/Navbar"
 import CarouselCards from "../componentes/CarouselCards"
-import '../styles/pages/Home.module.css'
+import '../styles/pages/Home.css'
 function Home(){
   document.title="Spiderman Multiverse - Page d'accueil"
   return(
-    <div>
+    <div className="body">
       <Navbar />
       <CarouselCards/>
     </div>
