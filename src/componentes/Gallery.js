@@ -1,7 +1,7 @@
 import '../styles/componentes/Galerry.css'
 
 function Gallery(photos) {
-  console.log(photos.pictures)
+
   return (
     <div className='gallery'>
       <ul>
