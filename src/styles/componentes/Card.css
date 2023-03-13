@@ -45,3 +45,7 @@
 .card:hover .card__background{
   opacity: 0;
 }
+
+.card:hover .card__title{
+  bottom: 50%;
+}

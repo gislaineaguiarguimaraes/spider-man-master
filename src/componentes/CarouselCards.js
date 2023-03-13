@@ -2,13 +2,13 @@ import styles from '../styles/componentes/CarouselCards.module.css'
 import Card from './Card'
 import spidermanList from '../data/spidermanList.json'
 
-function CarouselCards() {
+function CarouselCards(props) {
  
   return(
     <>
       <div className={styles.container}>
         <div className={styles.cards_carousel} >
-          <Card />
+          <Card mouseLeave={props.mouseLeave} mouseEnter={props.mouseEnter}/>
         </div>
       </div>
       <div className={styles.controller}>

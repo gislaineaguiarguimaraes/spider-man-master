@@ -1,19 +1,35 @@
-.body {
-  background-color: var(--primary-color);
-  height: 100%;
-
-}
-
-.body::before {
-  content: "";
-  background-image: url(../../assets/images/spider-man-background.jpg);
+.default_style{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 100%;
   position: absolute;
+  transition: background-image 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.body {
+  background-color: var(--primary-color);
+  height: 100%;
+}
+
+.body::before {
+  content: "";
+  background-image: url(../../assets/images/spider-man-background.jpg);
   opacity: 0.2;
   transition: background-image 1s ease-in-out, opacity 1s ease-in-out;
 }
+.spider-man-01{
+  background-image: url('../../assets/images/pic-sm-bg-01.jpg');
+}
+
+.spider-man-02{
+  background-image: url('../../assets/images/pic-sm-bg-03.jpg');
+}
+
+.spider-man-03 {
+  background-image: url('../../assets/images/pic-sm-bg-02.jpg');
+}
+
+
 
