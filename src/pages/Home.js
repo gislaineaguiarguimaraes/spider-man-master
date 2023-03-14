@@ -21,9 +21,9 @@ function Home(){
   function mouseLeave(){
     setInfo(undefined)
   }
-
+  console.log(bg)
   return(
-    <div className= {`${(info === undefined) ? "body" : bg} default_style`}>
+    <div className= {`${(info === undefined) ? "body" : bg } default_style`}>
       <Navbar />
       <CarouselCards mouseLeave={mouseLeave} mouseEnter={mouseEnter}/>
     </div>

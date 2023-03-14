@@ -1,13 +1,23 @@
 import styles from '../styles/componentes/CarouselCards.module.css'
 import Card from './Card'
 import spidermanList from '../data/spidermanList.json'
+import React, { useRef } from "react";
+
 
 function CarouselCards(props) {
- 
+
+  const ref = useRef()
+  //console.log(ref.current.style.transform)
+  function SelectedCarouselItem(){
+  
+
+  }
+  SelectedCarouselItem()
   return(
     <>
       <div className={styles.container}>
-        <div className={styles.cards_carousel} >
+        <div  className={styles.cards_carousel} ref={ref} 
+        style={{transform:'translateZ(-40vw) rotateY(0deg)'}}>
           <Card mouseLeave={props.mouseLeave} mouseEnter={props.mouseEnter}/>
         </div>
       </div>

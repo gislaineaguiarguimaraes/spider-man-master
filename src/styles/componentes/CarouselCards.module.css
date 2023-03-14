@@ -1,14 +1,17 @@
 .container{
+  position: relative;
   display: flex;
-  
+  align-items: center;
+  justify-content: space-evenly;
+  perspective: 3000px;
 }
 
 .cards_carousel{
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-  padding: 20px;
+  justify-content: center;
+  width: calc(100vw / 3 - 10%); /*Largura vai ser de 100% do espaço disponivel, divide por 3 (três cards) - 8% que vai ser o espaçamento*/
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease-in;
 }
 
 .controller {
