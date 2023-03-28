@@ -1,33 +1,46 @@
-import styles from '../styles/componentes/CarouselCards.module.css'
+import '../styles/componentes/CarouselCards.css'
 import Card from './Card'
 import spidermanList from '../data/spidermanList.json'
-import React, { useRef } from "react";
+import React, { useState } from "react";
 
 
 function CarouselCards(props) {
 
-  const ref = useRef()
-  //console.log(ref.current.style.transform)
-  function SelectedCarouselItem(){
   
+  const [selectedItemId, setSelectedItemId] = useState(null);
+
+  function SelectedCarouselItem(id){
+    setSelectedItemId(id);
+    
+   
 
   }
-  SelectedCarouselItem()
+  
   return(
     <>
-      <div className={styles.container}>
-        <div  className={styles.cards_carousel} ref={ref} 
-        style={{transform:'translateZ(-40vw) rotateY(0deg)'}}>
+      <div className='container'>
+        <div  
+          className='cards_carousel'  
+          style={{
+            transform:`translateZ(-40vw) rotateY(${-120 * (selectedItemId - 1)}deg)`
+          }}>
           <Card mouseLeave={props.mouseLeave} mouseEnter={props.mouseEnter}/>
         </div>
       </div>
-      <div className={styles.controller}>
+      <div className='controller'>
         {spidermanList.map((spiderman, index) => (
-          <div key={index} id={spiderman.id} className={styles.controller__button}>
+          <div 
+          key={index} 
+          id={spiderman.id} 
+          className={`controller__button ${
+            spiderman.id === selectedItemId ? "selected" : ""
+          }`} 
+          
+          onClick={() => SelectedCarouselItem(spiderman.id)}>
           {spiderman.id}
           </div>
         ))}
-        <div className= {styles.controller__line}></div>
+        <div className= 'controller__line'></div>
       </div>
     </>
   )

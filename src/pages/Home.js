@@ -8,26 +8,65 @@ import CarouselCards from "../componentes/CarouselCards"
 
 function Home(){
   document.title="Spiderman Multiverse - Page d'accueil"
-  //useState para pegar o id
-  const [info, setInfo] = useState()
-  //useState para pegar mudar o estado do background
-  const [bg, setBg] = useState()
-   
-  
-  function mouseEnter(argInfo){
-    setInfo(argInfo)
-    setBg(`spider-man-0${argInfo}`)
-  }
-  function mouseLeave(){
-    setInfo(undefined)
-  }
-  console.log(bg)
-  return(
-    <div className= {`${(info === undefined) ? "body" : bg } default_style`}>
-      <Navbar />
-      <CarouselCards mouseLeave={mouseLeave} mouseEnter={mouseEnter}/>
-    </div>
-  )
-}
+  document.body.className='body'
 
+  //useState para pegar mudar o estado do background
+  
+  /*const [cardBackground, setCardBackground] = useState({
+    imageUrl:('https://imgur.com/px4SxHT.jpg'),
+  })
+
+  function mouseEnter(background){
+    setCardBackground({imageUrl:background})
+  }
+
+  function mouseLeave(){
+    setCardBackground({ imageUrl: 'https://imgur.com/px4SxHT.jpg' })
+  }
+
+  const style = {
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    width: '100vh',
+    height: '100%',
+    transition: 'background-image 1s ease-in-out, opacity 1s ease-in-out',
+  }
+  
+
+  return(
+    
+    <div >
+      <div style={{ backgroundImage: `url(${cardBackground.imageUrl})`, ...style}}>
+        <Navbar />
+        <CarouselCards mouseLeave={mouseLeave} mouseEnter={mouseEnter}/>
+      </div>
+    </div>
+    
+  )
+}*/
+const [cardId, setCardId] = useState()
+
+
+
+function mouseEnter(id){
+  setCardId(`spiderman-${id}-hovered`)
+  
+}
+document.body.id=(cardId)
+
+function mouseLeave(){
+  setCardId('')
+}
+return(
+    
+  
+  <div>
+    <Navbar />
+    <CarouselCards mouseLeave={mouseLeave} mouseEnter={mouseEnter}/>
+  </div>
+  
+  
+)
+}
 export default Home

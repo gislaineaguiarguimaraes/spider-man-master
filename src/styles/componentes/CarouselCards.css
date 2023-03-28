@@ -49,7 +49,7 @@
   margin: 0 2.75rem;
 }
 
-.controller__button_active{
+.selected{
   background-color: white;
   color: var(--primary-color);
   border: 0.1875rem solid var(--primary-color);

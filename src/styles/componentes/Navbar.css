@@ -5,13 +5,13 @@
   position: relative;
 }
 
-.menu li {
+.menu ul li {
   display: inline-block; /*Para que os items fiquem lado a lado*/
   text-transform: uppercase;
   margin: 0 1.25rem;
 }
 
-.icon{
+.iconNavbar{
   width: 2rem;
   margin: 0 1.25rem;
   vertical-align: middle; /*alinha verticalmente no meio*/

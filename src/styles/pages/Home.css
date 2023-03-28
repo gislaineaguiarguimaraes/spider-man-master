@@ -1,37 +1,32 @@
-.default_style{
+body.body {
+  background-color: var(--primary-color);
+}
+
+body.body::before {
+  content: "";
+  background-image: url(https://imgur.com/px4SxHT.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 100%;
   position: absolute;
-  transition: background-image 1s ease-in-out, opacity 1s ease-in-out;
-}
-
-.body {
-  background-color: var(--primary-color);
-  height: 100%;
-}
-
-.body::before {
-  content: "";
-  background-image: url(../../assets/images/spider-man-background.jpg);
   opacity: 0.2;
   transition: background-image 1s ease-in-out, opacity 1s ease-in-out;
-  
 }
 
-.spider-man-01{
-  background-image: url('../../assets/images/pic-sm-bg-01.jpg');
+body.body#spiderman-1-hovered::before {
+  background-image: url(https://imgur.com/VAVI0bO.jpg);
 }
 
-.spider-man-02{
-  background-image: url('../../assets/images/pic-sm-bg-03.jpg');
+body.body#spiderman-2-hovered::before {
+  background-image: url(https://imgur.com/haFx2T8.jpg);
 }
 
-.spider-man-03 {
-  background-image: url('../../assets/images/pic-sm-bg-02.jpg');
+body.body#spiderman-3-hovered::before {
+  background-image: url(https://imgur.com/7vSXkzc.jpg);
 }
 
-
-
+body.body[id^="spiderman-"]::before {
+  opacity: 1;
+}

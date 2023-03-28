@@ -1,16 +1,16 @@
 import { ReactComponent as Image } from "../assets/images/icons/spider.svg"
 import { Link } from 'react-router-dom'
-import  styles from "../styles/componentes/Navbar.module.css"
+import  "../styles/componentes/Navbar.css"
 import spidermanList from '../data/spidermanList.json'
 
 function Navbar(){
 
  
   return(
-    <nav className={styles.menu}>
+    <nav className='menu'>
       <ul>
         <li>
-          <Image className={styles.icon}/>
+          <Image className='iconNavbar'/>
         </li>
         {spidermanList.map((spiderman, index) =>(
           

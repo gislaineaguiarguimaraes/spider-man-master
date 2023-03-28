@@ -30,7 +30,7 @@ function Spiderman(){
     moviesId.push (movies[0][i].id)
     
   }
-  console.log(moviesId)
+  
 
   return(
     <div className='wrapper' style={{backgroundImage:`url(${movie.background})`, width: "100%", height:"100%", backgroundSize:"cover"}}>
