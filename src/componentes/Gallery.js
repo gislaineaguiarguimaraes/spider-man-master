@@ -1,17 +1,15 @@
-import '../styles/componentes/Galerry.css'
+import '../styles/componentes/Galery.css'
 
 function Gallery(photos) {
-
   return (
-    <div className='gallery'>
+    <div className="gallery">
       <ul>
-        {photos.pictures.map((img, index) =>(
+        {photos.pictures.map((img, index) => (
           <li key={index}>
-            <img src={img} alt=" "/>
+            <img src={img} alt=" " />
           </li>
         ))}
       </ul>
-
     </div>
   )
 }

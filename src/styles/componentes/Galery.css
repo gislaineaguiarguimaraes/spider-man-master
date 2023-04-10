@@ -3,16 +3,16 @@
   padding-left: 25px;
 }
 
-.gallery ul{
+.gallery ul {
   display: flex;
   flex-direction: row;
 }
 
-.gallery ul li{
+.gallery ul li {
   margin-left: 25px;
 }
 
-.gallery ul li:first-child{
+.gallery ul li:first-child {
   margin-left: 0px;
 }
 
@@ -21,4 +21,14 @@
   border-radius: 15px;
   width: 300px;
   height: 200px;
+}
+
+@media (max-width: 1355px) {
+  .gallery ul {
+    flex-wrap: wrap;
+  }
+
+  .gallery ul li {
+    margin: 15px;
+  }
 }

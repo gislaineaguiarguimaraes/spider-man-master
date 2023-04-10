@@ -1,72 +1,45 @@
-import React, {useState} from 'react'
+import React, { useState, useEffect } from 'react'
+
 import '../styles/pages/Home.css'
 
-//Importer les composants 
-import Navbar from "../componentes/Navbar"
-import CarouselCards from "../componentes/CarouselCards"
+//Importer les composants
+import Navbar from '../componentes/Navbar'
+import CarouselCards from '../componentes/CarouselCards'
 
+function Home() {
+  document.title = "Spiderman Multiverse - Page d'accueil"
 
-function Home(){
-  document.title="Spiderman Multiverse - Page d'accueil"
-  document.body.className='body'
+  const [cardId, setCardId] = useState('')
 
-  //useState para pegar mudar o estado do background
-  
-  /*const [cardBackground, setCardBackground] = useState({
-    imageUrl:('https://imgur.com/px4SxHT.jpg'),
-  })
-
-  function mouseEnter(background){
-    setCardBackground({imageUrl:background})
+  function mouseEnter(id) {
+    setCardId(`spiderman-${id}-hovered`)
   }
 
-  function mouseLeave(){
-    setCardBackground({ imageUrl: 'https://imgur.com/px4SxHT.jpg' })
+  function mouseLeave() {
+    setCardId('')
   }
 
-  const style = {
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
-    backgroundSize: 'cover',
-    width: '100vh',
-    height: '100%',
-    transition: 'background-image 1s ease-in-out, opacity 1s ease-in-out',
-  }
-  
+  useEffect(() => {
+    document.body.className = 'body'
+    let body = document.body
+    console.log(body)
+    document.body.id = cardId
 
-  return(
-    
-    <div >
-      <div style={{ backgroundImage: `url(${cardBackground.imageUrl})`, ...style}}>
-        <Navbar />
-        <CarouselCards mouseLeave={mouseLeave} mouseEnter={mouseEnter}/>
-      </div>
+    // Função que remove o id do body
+    const removeBodyId = () => {
+      document.body.id = ''
+      document.body.className = ''
+    }
+
+    // Retorna a função de limpeza
+    return removeBodyId
+  }, [cardId])
+
+  return (
+    <div>
+      <Navbar />
+      <CarouselCards mouseLeave={mouseLeave} mouseEnter={mouseEnter} />
     </div>
-    
   )
-}*/
-const [cardId, setCardId] = useState()
-
-
-
-function mouseEnter(id){
-  setCardId(`spiderman-${id}-hovered`)
-  
-}
-document.body.id=(cardId)
-
-function mouseLeave(){
-  setCardId('')
-}
-return(
-    
-  
-  <div>
-    <Navbar />
-    <CarouselCards mouseLeave={mouseLeave} mouseEnter={mouseEnter}/>
-  </div>
-  
-  
-)
 }
 export default Home

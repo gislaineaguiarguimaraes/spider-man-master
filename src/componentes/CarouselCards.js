@@ -11,9 +11,6 @@ function CarouselCards(props) {
 
   function SelectedCarouselItem(id){
     setSelectedItemId(id);
-    
-   
-
   }
   
   return(
