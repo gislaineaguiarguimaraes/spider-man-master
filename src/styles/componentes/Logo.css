@@ -4,3 +4,11 @@
   margin-bottom: 30px;
   max-width: 70%;
 }
+
+@media (max-width: 768px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+}

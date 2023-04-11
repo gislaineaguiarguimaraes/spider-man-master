@@ -57,11 +57,12 @@
 
 @media (max-width: 768px) {
   .navigator {
-    width: 65%;
+    width: 90%;
     height: auto;
   }
   .navigator__icon {
-    position: static;
+    top: 0;
+    left: 0;
   }
   .navigator ul {
     display: flex;
@@ -71,6 +72,10 @@
   }
   .navigator::before {
     height: 2px;
-    width: 100%;
+    width: 80%;
+  }
+  .navigator ul li a {
+    width: 35px;
+    height: 35px;
   }
 }

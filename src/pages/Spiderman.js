@@ -34,6 +34,7 @@ function Spiderman() {
       style={{
         backgroundImage: `url(${movie.background})`,
         width: '100%',
+        height: '100%',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center center',
