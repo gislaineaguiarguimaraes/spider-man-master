@@ -1,6 +1,15 @@
+.spiderman-body {
+  height: 100%;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
+  background-size: cover;
+  background-position: center center;
+  /*backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center center',
+        backgroundAttachment: 'fixed',*/
 }
 
 .left_column {
@@ -40,9 +49,9 @@
   .left_column {
     flex-direction: row;
     width: 100%;
-    height: 100px;
+    height: 150px;
     padding-right: 0;
-    background: linear-gradient(black, 70%, transparent);
+    background: linear-gradient(black, 80%, transparent);
   }
   .main_content {
     padding-left: 0;

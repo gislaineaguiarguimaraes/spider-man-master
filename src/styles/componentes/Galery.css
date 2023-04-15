@@ -37,4 +37,7 @@
   .gallery ul {
     justify-content: center;
   }
+  .gallery ul li {
+    margin: 15px 5px;
+  }
 }

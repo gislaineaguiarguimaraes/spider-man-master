@@ -4,6 +4,7 @@
   padding: 20px;
   border-radius: 10px;
 }
+
 .description__text p {
   color: white;
   line-height: 170%;
@@ -30,6 +31,9 @@
 }
 
 @media (max-width: 768px) {
+  .description {
+    max-width: 75%;
+  }
   .pills ul li {
     margin: 5px auto;
   }

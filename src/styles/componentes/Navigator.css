@@ -61,8 +61,8 @@
     height: auto;
   }
   .navigator__icon {
-    top: 0;
-    left: 0;
+    top: -5px;
+    left: 5px;
   }
   .navigator ul {
     display: flex;
@@ -73,6 +73,7 @@
   .navigator::before {
     height: 2px;
     width: 80%;
+    margin-left: 30px;
   }
   .navigator ul li a {
     width: 35px;

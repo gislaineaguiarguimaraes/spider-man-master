@@ -10,6 +10,7 @@ import Links from '../componentes/Links'
 import Gallery from '../componentes/Gallery'
 
 function Spiderman() {
+  document.body.className = 'spiderman-body'
   const { id } = useParams()
   let movie = {}
   let movies = []
@@ -33,11 +34,6 @@ function Spiderman() {
       className="wrapper"
       style={{
         backgroundImage: `url(${movie.background})`,
-        width: '100%',
-        height: '100%',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center center',
       }}
     >
       <div className="left_column">
