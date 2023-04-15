@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/gislaineaguiarguimaraes/spider-man-master.git/static/css/main.7766efd5.css",
+    "main.js": "/gislaineaguiarguimaraes/spider-man-master.git/static/js/main.dd9b14fe.js",
+    "static/media/spider.svg": "/gislaineaguiarguimaraes/spider-man-master.git/static/media/spider.6f50f4c7210fb34a754c115d1662a943.svg",
+    "index.html": "/gislaineaguiarguimaraes/spider-man-master.git/index.html",
+    "main.7766efd5.css.map": "/gislaineaguiarguimaraes/spider-man-master.git/static/css/main.7766efd5.css.map",
+    "main.dd9b14fe.js.map": "/gislaineaguiarguimaraes/spider-man-master.git/static/js/main.dd9b14fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7766efd5.css",
+    "static/js/main.dd9b14fe.js"
+  ]
+}
