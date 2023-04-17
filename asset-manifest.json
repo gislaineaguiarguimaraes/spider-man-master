@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/spider-man-master/static/css/main.7766efd5.css",
-    "main.js": "/spider-man-master/static/js/main.c1ff5f69.js",
+    "main.js": "/spider-man-master/static/js/main.f7776dfc.js",
     "static/media/spider.svg": "/spider-man-master/static/media/spider.6f50f4c7210fb34a754c115d1662a943.svg",
     "index.html": "/spider-man-master/index.html",
     "main.7766efd5.css.map": "/spider-man-master/static/css/main.7766efd5.css.map",
-    "main.c1ff5f69.js.map": "/spider-man-master/static/js/main.c1ff5f69.js.map"
+    "main.f7776dfc.js.map": "/spider-man-master/static/js/main.f7776dfc.js.map"
   },
   "entrypoints": [
     "static/css/main.7766efd5.css",
-    "static/js/main.c1ff5f69.js"
+    "static/js/main.f7776dfc.js"
   ]
 }
