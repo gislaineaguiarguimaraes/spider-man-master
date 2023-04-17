@@ -10,7 +10,7 @@ function App() {
     <div className="App" style={{ height: '100vh' }}>
       {/*Englober l'intégralité du projet dans le Routeur */}
 
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/Spiderman/:id" element={<Spiderman />} />
